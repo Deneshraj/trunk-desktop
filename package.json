@@ -1,0 +1,14 @@
+{
+  "name": "trunk-desktop",
+  "version": "1.0.0",
+  "description": "Desktop version of the Trunk",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Deneshraj R, Ameenur Rahman M.H",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^12.0.2"
+  }
+}
