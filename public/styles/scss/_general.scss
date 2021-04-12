@@ -1,0 +1,49 @@
+.vcenter {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn {
+    padding: 1rem 2rem;
+    border-radius: 200rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $primaryColor;
+    transition: 0.2s ease all;
+    border: none;
+    outline: none;
+    display: block;
+    margin: auto;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    transition: 0.2s ease all;
+    background: $primaryDark;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    display: block;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid #aaa;
+    border-radius: 0.3rem;
+}
+
+.form-group {
+    margin: 1rem 0;
+}

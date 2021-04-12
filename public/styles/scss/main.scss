@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;600;800;900&display=swap');
 
+$primaryColor: #00f;
+$primaryDark: #0000b9;
+
 * {
     font-family: 'Mulish', sans-serif;
     box-sizing: border-box;
@@ -7,13 +10,13 @@
 
 html,
 body {
+    margin: 0;
     padding: 0;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    height: 100%;
 }
 
-h1 {
-    text-align: center;
-    font-weight: 900;
-    font-size: 2.5rem;
-}
+@import 'general';
+@import 'home';
+@import 'auth';

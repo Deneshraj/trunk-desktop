@@ -1,10 +1,9 @@
 const electron = require('electron');
 const path = require('path');
 
-const { app, BrowserWindow, Menu } = electron;
+const { app, BrowserWindow, Menu, ipcMain } = electron;
 
 let mainWindow;
-let addWindow;
 
 const htmlPath = path.join(__dirname, path.join('public', 'html'));
 

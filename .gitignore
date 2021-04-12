@@ -117,9 +117,20 @@ dist
 
 #directories
 bower_components
-node_modules
 dist
 
 #files
 *.tgz
-*.log
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
